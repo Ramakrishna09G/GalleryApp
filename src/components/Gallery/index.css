@@ -1,0 +1,66 @@
+/* Write your code here. */
+.gallery-app-container {
+  background-color: #ffffff;
+
+  height: 98vh;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .gallery-app-container {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+.gallery-image {
+  width: 100vw;
+  height: 200px;
+  width: 330px;
+  border-radius: 20px;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .gallery-image {
+    height: 450px;
+    width: 55%;
+  }
+}
+.nature-photography-list-container {
+  width: 100vw;
+  width: 350px;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .nature-photography-list-container {
+    width: 56%;
+  }
+}
+.main-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 28px;
+  margin-left: 12px;
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+.thumbnail-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-list-container {
+    width: 60%;
+    align-self: center;
+    margin-top: 0px;
+  }
+}
